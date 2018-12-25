@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352C41B1843FE763DE14A67D /* libPods-ChineseFormat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5A03B665E4A198CE12DC98 /* libPods-ChineseFormat.a */; };
+		D7BB364321AFE655006D4711 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BB364221AFE655006D4711 /* AppDelegate.m */; };
+		D7BB364521AFE658006D4711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BB364421AFE658006D4711 /* Assets.xcassets */; };
+		D7BB364B21AFE658006D4711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BB364A21AFE658006D4711 /* main.m */; };
+		D7BB365E21B01910006D4711 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BB365C21B01910006D4711 /* HomeViewController.m */; };
+		D7BB365F21B01910006D4711 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BB365D21B01910006D4711 /* HomeViewController.xib */; };
+		D7BB366221B11308006D4711 /* ChineseConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BB366121B11308006D4711 /* ChineseConvert.m */; };
+		D7BB366521B1148C006D4711 /* SimplifiedCode.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7BB366321B1148C006D4711 /* SimplifiedCode.txt */; };
+		D7BB366621B1148C006D4711 /* TraditionalCode.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7BB366421B1148C006D4711 /* TraditionalCode.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EEED1677ABB541ED31513EB /* Pods-ChineseFormat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseFormat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChineseFormat/Pods-ChineseFormat.release.xcconfig"; sourceTree = "<group>"; };
+		9CD8988EE27C76695271AA50 /* Pods-ChineseFormat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChineseFormat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChineseFormat/Pods-ChineseFormat.debug.xcconfig"; sourceTree = "<group>"; };
+		AC5A03B665E4A198CE12DC98 /* libPods-ChineseFormat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChineseFormat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BB363E21AFE655006D4711 /* ChineseFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BB364121AFE655006D4711 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7BB364221AFE655006D4711 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7BB364421AFE658006D4711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7BB364921AFE658006D4711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BB364A21AFE658006D4711 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7BB364C21AFE658006D4711 /* ChineseFormat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChineseFormat.entitlements; sourceTree = "<group>"; };
+		D7BB365B21B01910006D4711 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D7BB365C21B01910006D4711 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D7BB365D21B01910006D4711 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D7BB366021B11308006D4711 /* ChineseConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChineseConvert.h; sourceTree = "<group>"; };
+		D7BB366121B11308006D4711 /* ChineseConvert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseConvert.m; sourceTree = "<group>"; };
+		D7BB366321B1148C006D4711 /* SimplifiedCode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimplifiedCode.txt; sourceTree = "<group>"; };
+		D7BB366421B1148C006D4711 /* TraditionalCode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TraditionalCode.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7BB363B21AFE655006D4711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352C41B1843FE763DE14A67D /* libPods-ChineseFormat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23CDB3A56E9EEBB4036AFF08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A03B665E4A198CE12DC98 /* libPods-ChineseFormat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A810D8A0B11D781FCE97213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CD8988EE27C76695271AA50 /* Pods-ChineseFormat.debug.xcconfig */,
+				7EEED1677ABB541ED31513EB /* Pods-ChineseFormat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7BB363521AFE655006D4711 = {
+			isa = PBXGroup;
+			children = (
+				D7BB364021AFE655006D4711 /* ChineseFormat */,
+				D7BB363F21AFE655006D4711 /* Products */,
+				4A810D8A0B11D781FCE97213 /* Pods */,
+				23CDB3A56E9EEBB4036AFF08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7BB363F21AFE655006D4711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7BB363E21AFE655006D4711 /* ChineseFormat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7BB364021AFE655006D4711 /* ChineseFormat */ = {
+			isa = PBXGroup;
+			children = (
+				D7BB364121AFE655006D4711 /* AppDelegate.h */,
+				D7BB364221AFE655006D4711 /* AppDelegate.m */,
+				D7BB365B21B01910006D4711 /* HomeViewController.h */,
+				D7BB365C21B01910006D4711 /* HomeViewController.m */,
+				D7BB365D21B01910006D4711 /* HomeViewController.xib */,
+				D7BB366021B11308006D4711 /* ChineseConvert.h */,
+				D7BB366121B11308006D4711 /* ChineseConvert.m */,
+				D7BB366321B1148C006D4711 /* SimplifiedCode.txt */,
+				D7BB366421B1148C006D4711 /* TraditionalCode.txt */,
+				D7BB364421AFE658006D4711 /* Assets.xcassets */,
+				D7BB364921AFE658006D4711 /* Info.plist */,
+				D7BB364A21AFE658006D4711 /* main.m */,
+				D7BB364C21AFE658006D4711 /* ChineseFormat.entitlements */,
+			);
+			path = ChineseFormat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7BB363D21AFE655006D4711 /* ChineseFormat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BB364F21AFE658006D4711 /* Build configuration list for PBXNativeTarget "ChineseFormat" */;
+			buildPhases = (
+				87AFD88DDB5F03898AD66F2C /* [CP] Check Pods Manifest.lock */,
+				D7BB363A21AFE655006D4711 /* Sources */,
+				D7BB363B21AFE655006D4711 /* Frameworks */,
+				D7BB363C21AFE655006D4711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseFormat;
+			productName = ChineseFormat;
+			productReference = D7BB363E21AFE655006D4711 /* ChineseFormat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7BB363621AFE655006D4711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = gaoyi;
+				TargetAttributes = {
+					D7BB363D21AFE655006D4711 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D7BB363921AFE655006D4711 /* Build configuration list for PBXProject "ChineseFormat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7BB363521AFE655006D4711;
+			productRefGroup = D7BB363F21AFE655006D4711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7BB363D21AFE655006D4711 /* ChineseFormat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7BB363C21AFE655006D4711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BB364521AFE658006D4711 /* Assets.xcassets in Resources */,
+				D7BB366521B1148C006D4711 /* SimplifiedCode.txt in Resources */,
+				D7BB365F21B01910006D4711 /* HomeViewController.xib in Resources */,
+				D7BB366621B1148C006D4711 /* TraditionalCode.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87AFD88DDB5F03898AD66F2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChineseFormat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7BB363A21AFE655006D4711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BB364B21AFE658006D4711 /* main.m in Sources */,
+				D7BB364321AFE655006D4711 /* AppDelegate.m in Sources */,
+				D7BB365E21B01910006D4711 /* HomeViewController.m in Sources */,
+				D7BB366221B11308006D4711 /* ChineseConvert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7BB364D21AFE658006D4711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7BB364E21AFE658006D4711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7BB365021AFE658006D4711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD8988EE27C76695271AA50 /* Pods-ChineseFormat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WZ73MWM6N2;
+				INFOPLIST_FILE = ChineseFormat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"AppKit\"",
+					"-framework",
+					"\"Foundation\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.css.chineseformat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		D7BB365121AFE658006D4711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEED1677ABB541ED31513EB /* Pods-ChineseFormat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WZ73MWM6N2;
+				INFOPLIST_FILE = ChineseFormat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"AppKit\"",
+					"-framework",
+					"\"Foundation\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.css.chineseformat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7BB363921AFE655006D4711 /* Build configuration list for PBXProject "ChineseFormat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BB364D21AFE658006D4711 /* Debug */,
+				D7BB364E21AFE658006D4711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BB364F21AFE658006D4711 /* Build configuration list for PBXNativeTarget "ChineseFormat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BB365021AFE658006D4711 /* Debug */,
+				D7BB365121AFE658006D4711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7BB363621AFE655006D4711 /* Project object */;
+}
